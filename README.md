@@ -2,9 +2,7 @@
 Comparison of using the Ledoit-Wolf and the Oracle Approximating Shrinkage Estimators to estimate singular covariance matrices in the context of portfolio optimzation. Includes an experiment where 
 
 **Description:**  
-This notebook demonstrates how and when estimation errors of the covariance matrix occur and approaches to reduce these errors.
-
-Inspired by the work of Ledoit & Wolf - Honey, I Shrunk the Sample Covariance Matrix, the covariance matrix of historical stock returns is:
+This notebook demonstrates how and when estimation errors of the covariance matrix occur and approaches to reduce these errors. Inspired by the work of Ledoit & Wolf - Honey, I Shrunk the Sample Covariance Matrix, the covariance matrix of historical stock returns is:
 * estimated via the Ledoit-Wolf Shrinkage Estimator and the Oracle Approximating Shrinkage Estimator and
 * used to compute the Markowitz' mean-variance portfolio.
 * The results are then compared to the sample covariance and evaluated for 24 different time periods.  
